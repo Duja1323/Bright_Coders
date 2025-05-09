@@ -1,5 +1,5 @@
 # Bright Coders - Site Web Éducatif
-
+![Exécution du projet](images/logo.png)
 ## 📝 Description
 Bright Coders est une plateforme éducative dédiée à l'enseignement de la programmation pour les enfants. Le site web est conçu pour présenter les services de formation en codage et faciliter l'inscription des étudiants.
 
