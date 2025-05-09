@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Bright Coders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="header__logo">
+            <img src="images/logo.png" alt="Bright Coders">
+        </a>
+        <div class="header__btn_menu">
+            <button>Savoir en click</button>
+            <div class="btn_menu">
+                <img src="images/hamburger.png" alt="">
+            </div>
+        </div>
+    </header>
+    <ul class="menu">
+        <div class="menu__logo">
+            <img src="images/logo.png" alt="Bright Coders">
+        </div>
+        <div class="contact">
+            <span>Inscrivez- vous pour savoir plus</span>
+            <div>
+                <h3>bright.coders@gmail.com <br>+212(0) 684858850</h3>
+                <h3>Fés 70/3003 <br> Maroc</h3>
+            </div>
+        </div>
+        <div class="links">
+            <li><a href="#">C<span>od</span>ing</a></li>
+            <li><a href="#">e<span>s</span>t</a></li>
+            <li><a href="#">l'a<span>venir</span></a></li>
+            <li><a href="#">de<span>vos</span>enfants</a></li>
+        </div>
+    </ul>
+    <section class="contact-section">
+        <div class="text">
+            <h1 class="animated-title">Contactez-nous !</h1>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>hello@Kidscoding.ma</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📱</div>
+                        <h3>Téléphone</h3>
+                        <p>+212(0)123456789</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>FES 70/3003<br>30000 MAROC</p>
+                    </div>
+                </div>
+                <form action="form_process.php" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Votre nom</label>
+                        <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Envoyer</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <h3>Rejoignez l'aventure du codage !</h3>
+                <p>Transformez vos enfants en super-héros du numérique</p>
+            </div>
+            <div class="footer-social">
+                <span>Suivez-nous</span>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">📱</a>
+                    <a href="#" class="social-icon">💻</a>
+                    <a href="#" class="social-icon">🎮</a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">@bright_coders &copy; 2024 | Tous les droits sont réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html> 
