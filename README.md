@@ -36,6 +36,9 @@ Bright Coders est une plateforme éducative dédiée à l'enseignement de la pro
 ## 🔧 Installation
 
 1. Clonez ce dépôt sur votre serveur web local
+```bash
+git clone
+```
 2. Assurez-vous que PHP est installé et configuré sur votre serveur
 3. Vérifiez que les permissions des fichiers sont correctement configurées
 4. Accédez au site via votre navigateur web
